@@ -1,0 +1,1 @@
+/api/* https://todo-kalimous.ap-southeast-2.elasticbeanstalk.com/api:splat 200
