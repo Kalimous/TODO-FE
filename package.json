@@ -18,9 +18,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +41,11 @@
       "last 1 safari version"
     ]
   },
+<<<<<<< HEAD
   "proxy": "https://todo-demo-kalimous.netlify.app"
+=======
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+>>>>>>> ecc2a8eaa653965a4f9e3b58837dbb4760f450a4
 }

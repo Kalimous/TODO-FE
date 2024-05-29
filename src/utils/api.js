@@ -1,10 +1,16 @@
 import axios from "axios";
 
 const api = axios.create({
+<<<<<<< HEAD
     baseURL: `${process.env.REACT_APP_LOCAL_BACKEND_URL}/api`,
     headers: {
         "Content-Type": "application/json",
         authorization: "Bearer " + localStorage.getItem("token"),
+=======
+    baseURL: `${process.env.REACT_APP_BACKEND_PROXY}/api`,
+    headers: {
+        "Content-Type": "application/json",
+>>>>>>> ecc2a8eaa653965a4f9e3b58837dbb4760f450a4
     },
 });
 /**
@@ -17,7 +23,10 @@ api.interceptors.request.use(
     },
     function (error) {
         console.log("REQUEST ERROR", error);
+<<<<<<< HEAD
         console.log("asdf");
+=======
+>>>>>>> ecc2a8eaa653965a4f9e3b58837dbb4760f450a4
     }
 );
 
