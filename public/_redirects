@@ -1,7 +1,2 @@
-<<<<<<< HEAD
-/api/* http://todo-kalimous.us-east-1.elasticbeanstalk.com/api/:splat 200
-/* /index.html 200
-=======
-/api/* http://todo-kalimous.ap-southeast-2.elasticbeanstalk.com/api/:splat 200
-    
->>>>>>> ecc2a8eaa653965a4f9e3b58837dbb4760f450a4
+/*    /index.html   200
+/api/* http://todo-kalimous.us-east-1.elasticbeanstalk.com 200

@@ -2,7 +2,6 @@
   "name": "react-todolist",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://todo-kalimous.ap-southeast-2.elasticbeanstalk.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
@@ -17,11 +16,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node start",
+    "build": "CI=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    
   },
   "eslintConfig": {
     "extends": [
@@ -40,10 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-
-  "devDependencies": {
-    "cross-env": "^7.0.3"
   }
->>>>>>> ecc2a8eaa653965a4f9e3b58837dbb4760f450a4
 }

@@ -4,8 +4,8 @@ const api = axios.create({
     baseURL: `${process.env.REACT_APP_BACKEND_PROXY}/api`,
     headers: {
         "Content-Type": "application/json",
-        authorization: "Bearer " + localStorage.getItem("token"),
-    }
+        authorization: "Bearer " + sessionStorage.getItem("token"),
+    },
 });
 /**
  * console.log all requests and responses
@@ -17,6 +17,7 @@ api.interceptors.request.use(
     },
     function (error) {
         console.log("REQUEST ERROR", error);
+        console.log("asdf");
     }
 );
 
